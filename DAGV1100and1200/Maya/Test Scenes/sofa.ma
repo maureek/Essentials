@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: sofa.ma
-//Last modified: Sun, Oct 19, 2025 06:04:54 PM
+//Last modified: Sun, Oct 19, 2025 06:10:42 PM
 //Codeset: 1252
 requires maya "2026";
 requires "stereoCamera" "10.0";
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 26100)";
-fileInfo "UUID" "4BCA35A5-46FD-45D8-BBA9-DCBCC34CAE27";
+fileInfo "UUID" "30C98937-4FDD-5883-BA54-C8B5873FE59A";
 createNode transform -n "single_sofa";
 	rename -uid "8EF7FAC5-4222-B33D-69C2-F1BF05E60AE9";
 	setAttr ".t" -type "double3" -7.457287021828833 0 -10.104128584012988 ;
@@ -15514,13 +15514,13 @@ createNode mesh -n "polySurfaceShape1" -p "single_sofa";
 createNode transform -s -n "persp";
 	rename -uid "25806B7B-4918-A82D-72AD-1EA93585BFD9";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -3.4151732798417616 15.206656951048393 8.5978449881048764 ;
+	setAttr ".t" -type "double3" 1.6539892302265979 31.716490288091904 32.043650171246242 ;
 	setAttr ".r" -type "double3" -34.538352729603751 12.19999999999993 4.067555454204313e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0406701B-48D0-6A45-F63D-55B2DEB0BC9A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 14.674583934360342;
+	setAttr ".coi" 43.794624903704026;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";

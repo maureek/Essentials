@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: lamp.ma
-//Last modified: Sun, Oct 19, 2025 05:58:54 PM
+//Last modified: Sun, Oct 19, 2025 06:01:23 PM
 //Codeset: 1252
 requires maya "2026";
 requires "stereoCamera" "10.0";
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 26100)";
-fileInfo "UUID" "8B9EE876-4277-DBF8-9580-C3B732847998";
+fileInfo "UUID" "09488D29-4591-81DD-9EFE-2DB0D8F21411";
 createNode transform -n "lamp";
 	rename -uid "9236640E-498E-C4D3-5D38-6A9E35842EA4";
 	setAttr ".t" -type "double3" 4.3175883904019319 -21.764613467123191 8.8089171988945409 ;
@@ -2790,13 +2790,13 @@ createNode mesh -n "polySurfaceShape1" -p "lamp";
 createNode transform -s -n "persp";
 	rename -uid "7A0EAC06-4486-40D9-51F9-F7A42845295E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 4.8782515455636055 3.0162690272107495 10.751430917187207 ;
-	setAttr ".r" -type "double3" 71.661647270519936 18.600000000047554 1.6779176473249599e-15 ;
+	setAttr ".t" -type "double3" 13.843395121254771 12.306561053542827 30.229354166482651 ;
+	setAttr ".r" -type "double3" -13.538352729480179 24.600000000047604 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "82E11C92-4938-92AF-ED9E-00B024CF181C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 9.9999997473787499e-06;
+	setAttr ".coi" 23.021070288419956;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
